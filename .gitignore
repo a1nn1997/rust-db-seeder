@@ -1,0 +1,74 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Cargo.lock should be committed for applications but not for libraries
+# If this is a library, uncomment the next line
+# Cargo.lock
+
+# Environment files (contain sensitive credentials)
+.env
+.env.*
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Security-related files
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+**/private_key*
+**/*_password*
+**/*_secret*
+**/secret*
+**/credential*
+**/*.secret
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+*.bak
+
+# IDE and editor files
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.settings/
+.classpath
+*.sublime-*
+.atom/
+*.code-workspace
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files and temporary directories
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
